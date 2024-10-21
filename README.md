@@ -20,10 +20,10 @@
 ## 下載
 以下檔案供 Windows 用戶使用，Mac 的用戶請直接運行代碼，或自行修改程式碼編譯：
 
-- **[Onngaku-DL.zip](https://github.com/koko0221/OnngakuDL-GUI_by_yt-dlp/releases/download/untagged-f7e50c90fc22316d2ed9/Onngaku-DL.zip)** 
+- **[Onngaku-DL.zip](https://github.com/koko0221/OnngakuDL-GUI_by_yt-dlp/releases/latest/download/Onngaku-DL.zip)** 
   - 需自行下載 `ffmpeg.exe`並配置到目錄
 
-- **[Onngaku-DL_ffmpeg_add.zip](https://github.com/koko0221/OnngakuDL-GUI_by_yt-dlp/releases/download/untagged-f7e50c90fc22316d2ed9/Onngaku-DL_ffmpeg_add.zip)** 
+- **[Onngaku-DL_ffmpeg_add.zip](https://github.com/koko0221/OnngakuDL-GUI_by_yt-dlp/releases/latest/download/Onngaku-DL_ffmpeg_add.zip)** 
   - 想直接使用請下載這個
 
 ## 使用 Python 運行:
