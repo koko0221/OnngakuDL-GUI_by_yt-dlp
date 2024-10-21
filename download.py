@@ -19,7 +19,7 @@ def start_download(urls, audio_format, download_path, treeview):
     def download(url):
         ydl_opts = {
             'format': 'bestaudio/best',
-            'ffmpeg_location': os.path.realpath('ffmpeg.exe'), #yt-dlp PATH
+            'ffmpeg_location': os.path.realpath('ffmpeg'), #yt-dlp PATH, Windows的話是'ffempeg.exe', Mac的話是'ffmpeg'
             'outtmpl': f'{download_path}/%(title)s.%(ext)s',
             'writethumbnail': True,  # 下載縮圖
             'postprocessors': [
