@@ -27,7 +27,7 @@
   - 想直接使用請下載這個
 
 ## 使用 Python 運行:
-### !與其花費時間做以下動作，不如直接配置[yt-dlp](https://github.com/yt-dlp/yt-dlp)會來得更值得!
+### 與其花費時間做以下動作，不如直接配置[yt-dlp](https://github.com/yt-dlp/yt-dlp)會來得更值得!
 
 1. 下載 Python
 2. 下載 Git
