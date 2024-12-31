@@ -29,15 +29,28 @@
 ## 使用 Python 運行:
 ### 與其花費時間做以下動作，不如直接配置[yt-dlp](https://github.com/yt-dlp/yt-dlp)會來得更值得!
 
-1. 下載 Python
-2. 下載 Git
+1. 下載 [Python](https://www.python.org/downloads/)
+   - Mac:
+     ```
+     brew install python
+     ```
+2. 下載 [Git](https://git-scm.com/downloads)
+   - Mac:
+     ```
+     brew install git
+     ```
 3. 在 CMD（終端機）克隆專案：
-   ``` shell
+   ```
    git clone https://github.com/koko0221/OnngakuDL-GUI_by_yt-dlp.git
    ```
-4. Windows 用戶下載 `ffmpeg.exe`，Mac 用戶下載 `ffmpeg` 到目錄，並確認 `download.py` 的 `ffmpeg_Path` 是否正確
-5. cd 到目錄
-6. 創建虛擬環境: 
+4. 下載[ffmpeg](https://www.ffmpeg.org/download.html)
+
+   Windows 用戶下載 `ffmpeg.exe`，Mac 用戶下載 `ffmpeg` 到目錄，並確認 `download.py` 的 `ffmpeg_Path` 是否正確
+5. cd 到目錄  
+   ```
+   cd ./OnngakuDL-GUI_by_yt-dlp
+   ```
+7. 創建虛擬環境: 
    - Windows:
      ```
      py -m venv venv
@@ -46,7 +59,7 @@
      ```
      python3 -m venv venv
      ```
-7. 進入虛擬環境: 
+8. 進入虛擬環境: 
    - Windows:
      ```
      source venv/bin/activate.ps1
@@ -55,9 +68,16 @@
      ```
      source venv/bin/activate
      ```
-8. 下載 tkinter（總之要確定有安裝）
-9. 安裝 yt-dlp: `pip install yt-dlp`
-10. 運行 `main.py`: 
+9. 下載 tkinter（總之要確定有安裝）
+   - Mac:
+      ```
+      brew install tkinter
+      ```
+10. 安裝 yt-dlp:
+   ```
+   pip install yt-dlp
+   ```
+11. 運行 `main.py`: 
     - Windows:
       ```
       py main.py
