@@ -62,11 +62,11 @@
 10. 運行 `main.py`: 
     - Windows:
       ```
-      source venv/bin/activate
+      py main.py
       ```
     - Mac:
       ```
-      source venv/bin/activate
+      python3 main.py
       ```
 
 ## 預覽
