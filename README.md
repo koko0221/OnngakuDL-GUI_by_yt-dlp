@@ -1,5 +1,7 @@
 # OnngakuDL-GUI_by_yt-dlp
 
+![ODL](http://this.website.com/cmoe?name=ODL&theme=mb)
+
 - 基於 yt-dlp 的簡易音樂下載 GUI，大部分使用 AI 撰寫程式碼
 
 - 理論上 Linux 也能運行，但沒有測試
@@ -31,20 +33,41 @@
 
 1. 下載 Python
 2. 下載 Git
-3. 在 CMD（終端機）克隆專案：`git clone https://github.com/koko0221/OnngakuDL-GUI_by_yt-dlp.git`
+3. 在 CMD（終端機）克隆專案：
+   ``` shell
+   git clone https://github.com/koko0221/OnngakuDL-GUI_by_yt-dlp.git
+   ```
 4. Windows 用戶下載 `ffmpeg.exe`，Mac 用戶下載 `ffmpeg` 到目錄，並確認 `download.py` 的 `ffmpeg_Path` 是否正確
 5. cd 到目錄
 6. 創建虛擬環境: 
-   - Windows: `py -m venv venv` 
-   - Mac: `python3 -m venv venv`
+   - Windows:
+     ```
+     py -m venv venv
+     ```
+   - Mac:
+     ```
+     python3 -m venv venv
+     ```
 7. 進入虛擬環境: 
-   - Windows: `source venv/bin/activate.ps1` 
-   - Mac: `source venv/bin/activate`
+   - Windows:
+     ```
+     source venv/bin/activate.ps1
+     ```
+   - Mac:
+     ```
+     source venv/bin/activate
+     ```
 8. 下載 tkinter（總之要確定有安裝）
 9. 安裝 yt-dlp: `pip install yt-dlp`
 10. 運行 `main.py`: 
-    - Windows: `py main.py` 
-    - Mac: `python3 main.py`
+    - Windows:
+      ```
+      source venv/bin/activate
+      ```
+    - Mac:
+      ```
+      source venv/bin/activate
+      ```
 
 ## 預覽
 <img width="834" alt="截圖 2024-10-21 上午11 41 44" src="https://github.com/user-attachments/assets/da74b4fa-ee50-49c5-8c19-b2f70038813e">
