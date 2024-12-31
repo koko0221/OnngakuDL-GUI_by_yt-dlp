@@ -1,7 +1,5 @@
 # OnngakuDL-GUI_by_yt-dlp
 
-![ODL](http://this.website.com/cmoe?name=ODL&theme=mb)
-
 - 基於 yt-dlp 的簡易音樂下載 GUI，大部分使用 AI 撰寫程式碼
 
 - 理論上 Linux 也能運行，但沒有測試
